@@ -14,12 +14,12 @@ export const Header = () => (
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
       <meta
         name="description"
-        content="Funding BuidlGuidl Mercs with oETH streams for quietly having important impact on Ethereum."
+        content="Funding BuidlGuidl Mercs with ETH streams for quietly having important impact on Ethereum."
       />
       <meta property="og:title" content="Mercs" />
       <meta
         property="og:description"
-        content="Funding BuidlGuidl Mercs with oETH streams for quietly having important impact on Ethereum."
+        content="Funding BuidlGuidl Mercs with ETH streams for quietly having important impact on Ethereum."
       />
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="og:image" content="https://mercs.buidlguidl.com/thumbnail.png" />

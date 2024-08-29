@@ -14,7 +14,7 @@ const Home: NextPage = () => {
             <Link href="/members" className="link link-primary">
               BuidlGuidl Mercs
             </Link>{" "}
-            with oETH streams for quietly having important impact on Ethereum.
+            with ETH streams for quietly having important impact on Ethereum.
           </p>
           {/* <p>
             <
