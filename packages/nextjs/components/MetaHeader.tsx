@@ -12,9 +12,9 @@ type MetaHeaderProps = {
 const baseUrl = "https://batches.buidlguidl.com/"; //Need to manually put in the base url
 
 export const MetaHeader = ({
-  title = "batches.buidlguidl.com",
-  description = "We're funding BuidlGuidl members for their contributions to the management, maintenance, and expansion of the BG Batches program.",
-  image = "Batches-unfurl.png",
+  title = "BuidlGuidl Batches",
+  description = "Funding BuidlGuidl members for their contributions to the management, maintenance, and expansion of the BG Batches program.",
+  image = "/Batches-unfurl.png",
   twitterCard = "summary_large_image",
   children,
 }: MetaHeaderProps) => {
