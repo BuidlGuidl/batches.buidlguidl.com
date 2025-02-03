@@ -3,16 +3,6 @@ pragma solidity >=0.8.0 <0.9.0;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-//  ___     ___              ___     ___    _  _     ___              ___     ___     ___     ___     ___    _  _
-// | _ )   / __|     o O O  / __|   /   \  | \| |   |   \     o O O  / __|   /   \   | _ \   |   \   | __|  | \| |
-// | _ \  | (_ |    o       \__ \   | - |  | .` |   | |) |   o      | (_ |   | - |   |   /   | |) |  | _|   | .` |
-// |___/   \___|   TS__[O]  |___/   |_|_|  |_|\_|   |___/   TS__[O]  \___|   |_|_|   |_|_\   |___/   |___|  |_|\_|
-// _|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|
-// "`-0-0-'"`-0-0-'./o--000'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'./o--000'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'
-//
-// BuidlGuidl Mercs
-
-
 contract SandGardenStreams is Ownable {
 
     struct BuilderStreamInfo {
@@ -27,7 +17,27 @@ contract SandGardenStreams is Ownable {
     event UpdateBuilder(address indexed to, uint256 amount);
 
     constructor() { 
-        _transferOwnership(0x34aA3F359A9D614239015126635CE7732c18fDF3);
+        emit Withdraw(0x2606Cb984B962AD4aA1ef00f9AF9b654b435ad44, 300000000000000000, "End of Batch 12; hanging up the Batch Dad hat for now. Thanks so much for the opportunity to support and onboard these buidlers! It's been an honor.");
+        emit Withdraw(0x2606Cb984B962AD4aA1ef00f9AF9b654b435ad44, 300000000000000000, "Batch 12 Week 3: PRs and cheerleading");
+        emit Withdraw(0x2606Cb984B962AD4aA1ef00f9AF9b654b435ad44, 300000000000000000, "Batch 12 ongoing, predominantly PR reviews");
+        emit Withdraw(0x699bFaC97c962db31238B429cEaF6734C492d61C, 450000000000000000, "Finishing up Batch 11, Setup of Batch 12, Management of Batch 12, PRs");
+        emit Withdraw(0x2606Cb984B962AD4aA1ef00f9AF9b654b435ad44, 300000000000000000, "Launch batch 12: first wave of PRs, cheerleading, and trying to activate members that haven't jumped in yet");
+        emit Withdraw(0x699bFaC97c962db31238B429cEaF6734C492d61C, 450000000000000000, "Ran Batch 11");
+        emit Withdraw(0x699bFaC97c962db31238B429cEaF6734C492d61C, 500000000000000000, "Batch 10, set up, all reviews, management, Batch 11 set up");
+        emit Withdraw(0x2606Cb984B962AD4aA1ef00f9AF9b654b435ad44, 300000000000000000, "Wrap up Batch 10, hand off for 11");
+        emit Withdraw(0x2606Cb984B962AD4aA1ef00f9AF9b654b435ad44, 300000000000000000, "Batch 10, ENS, feedback");
+        emit Withdraw(0x2606Cb984B962AD4aA1ef00f9AF9b654b435ad44, 300000000000000000, "Batch 10 week 2, including a light slap on the hand for a particularly impatient fellow");
+        emit Withdraw(0x699bFaC97c962db31238B429cEaF6734C492d61C, 500000000000000000, "Batch 9 management and support with reviewing PRs");
+        emit Withdraw(0x2606Cb984B962AD4aA1ef00f9AF9b654b435ad44, 300000000000000000, "Batch 10 prep and launch");
+        emit Withdraw(0x2606Cb984B962AD4aA1ef00f9AF9b654b435ad44, 300000000000000000, "Batch 9 wrap up, 1-on-1 guidance");
+        emit Withdraw(0x2606Cb984B962AD4aA1ef00f9AF9b654b435ad44, 300000000000000000, "Batch 9: PR reviews, ENS, blocked a turd trying to double-dip in Batch 9 and 10");
+        emit Withdraw(0x699bFaC97c962db31238B429cEaF6734C492d61C, 500000000000000000, "Support of Batch 8,9, code reviews, setup, tracking participation");
+        emit Withdraw(0x2606Cb984B962AD4aA1ef00f9AF9b654b435ad44, 300000000000000000, "Big week of Batch 9 engagement; quite a few eager beavers diving in and needing cat-herding.");
+        emit Withdraw(0x2606Cb984B962AD4aA1ef00f9AF9b654b435ad44, 300000000000000000, "Batch 9 set up");
+        emit Withdraw(0x2606Cb984B962AD4aA1ef00f9AF9b654b435ad44, 300000000000000000, "Batch 8 wrap-up, including a bunch of sweet cross-batch feedback on the last PR. The most active batch I've seen so far!");
+        emit Withdraw(0x699bFaC97c962db31238B429cEaF6734C492d61C, 500000000000000000, "Support of Batch 7, 8, reviewing PRs, reviewing grants application and giving feedback");
+
+        _transferOwnership(0x11E91FB4793047a68dFff29158387229eA313ffE);
     }
 
     struct BuilderData {
