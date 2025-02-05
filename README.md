@@ -1,3 +1,3 @@
-# 🦸‍♀️ BuidlGuidl Mercs
+# 🦸‍♀️ BuidlGuidl Batches Cohort
 
-Funding BuidlGuidl Mercs with oETH streams for quietly having important impact on Ethereum. 
+Funding BuidlGuidl Batches Cohort members or their contributions to the management, maintenance, and expansion of the BG Batches program.
